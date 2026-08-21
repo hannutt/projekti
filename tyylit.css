@@ -23,6 +23,9 @@ html {
     text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
 }
 
+.prosessi-otsikko {
+    text-align: center;
+}
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
