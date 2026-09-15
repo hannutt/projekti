@@ -15,35 +15,33 @@
 html {
   font-size: 100%; /* Default 16px */
   scroll-behavior: smooth;
-  
-}
-
-.otsikko {
-    text-align: center;
-    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
-}
-
-.prosessi-otsikko {
-    text-align: center;
-}
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.6;
   background-color: black;
-  color:white;
   
-  
-  
-  /* Pitää alatunnisteen (footer) aina sivun pohjalla */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+}
+.body {
+  background-color: black;
 }
 
+.etusivunotsikko {
+    text-align: center;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: small;
+    
+    color:#C5A059;
+    
+
+}
+.otsikon_rajaviiva {
+  border: 2px solid #C5A059 ;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: fit-content;
 
 
+}
 
-/* Pääsäiliö keskittää sisällön ja jättää reunoille turvavälin mobiilissa */
+/* Pääsäiliö keskittää sisällön ja jättää reunoille turvavälin mobiilissa 
 .container {
   width: 100%;
   max-width: 1200px;
@@ -51,7 +49,7 @@ body {
   margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
+}*/
 
 main {
   flex: 1; /* Täyttää tyhjän tilan niin että footer pysyy alhaalla */
@@ -94,15 +92,6 @@ main {
   h1 { font-size: 2.5rem; }
   h2 { font-size: 2rem; }
 }
-.otsikko2 {
-  font-family: "Instrument Serif", serif;
-  font-weight: 400;
-  font-style: small;
-  
-  border: 2px solid #C5A059 ;
-
-  color:#C5A059
-}
 
 /* Isommat työpöytänäytöt (>= 1024px) */
 @media (min-width: 1024px) {
@@ -112,26 +101,27 @@ main {
   }
 }
 
-.teksti1 {
-   color:#fad232;
-   font-size:  50px;
+.kuva_teksti {
+  white-space: nowrap;
+  padding-left: 20px;
+  color:#fad232;
+  font-size:  50px;
+  position: relative;
+  bottom: 205px;
+  right: 20px;
+
 }
-.teksti2 {
-   color:#fad232;
-   font-size:  50px;
-   text-indent: 200px;
+.kuvateksti_sisennetty {
+   position: relative;
+   margin-left: 200px;
 }
 
-.container {
+.alaosan_teksti {
+  color: whitesmoke;
+}
+/*
+.kuvateksti {
   position: relative;
   font-family: Arial;
-}
+} */
 
-.kokoteksti {
-  position: absolute;
-  bottom: 205px;
-  right: 240px;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
