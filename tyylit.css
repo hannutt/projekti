@@ -40,6 +40,10 @@ html {
 
 
 }
+.yhteys_div_container {
+  display: flex;
+  color: whitesmoke;
+}
 
 /* Pääsäiliö keskittää sisällön ja jättää reunoille turvavälin mobiilissa 
 .container {
@@ -107,8 +111,8 @@ main {
   color:#fad232;
   font-size:  50px;
   position: relative;
-  bottom: 205px;
-  right: 20px;
+  bottom: 400px;
+  right: -230px;
 
 }
 .kuvateksti_sisennetty {
@@ -119,9 +123,7 @@ main {
 .alaosan_teksti {
   color: whitesmoke;
 }
-/*
-.kuvateksti {
-  position: relative;
-  font-family: Arial;
-} */
 
+.navbar-expand-lg bg-body-tertiary {
+  background-color: black !important;
+}
