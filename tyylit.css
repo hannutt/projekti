@@ -86,14 +86,9 @@ main {
    5. MEDIA QUERIES (Mukautus eri näytön kokoille)
    ========================================================================== */
 
-@media (min-width: 400px) {
-  .position-md-absolute {
-    position: absolute !important;
-    background-color: transparent !important;
-  
-  }
+.navbar-toggler {
+  border-color: #C5A059 !important; /* Painikkeen reunan väri */
 }
-
 /* Tabletteille ja sitä suuremmille näytöille (>= 768px) */
 
 /* Isommat työpöytänäytöt (>= 1024px) 
