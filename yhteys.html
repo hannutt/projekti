@@ -1,66 +1,113 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Yhteys</title>
-        <link rel="stylesheet" href="tyylit.css">
-    </head>
-    <body>
-         <div id="container" class="container">
-            <div class="container-fluid" style="color: whitesmoke; align-items: center; text-align: center;" >
-            <h1 id="etuosivunotsikko" class="etusivunotsikko"><span class="otsikon_rajaviiva">TOLVIANDER</span></h1>
-            <br>
-            <h1>ETSITKÖ JOTAKIN UNIIKKIA?</h1>
-            <br>
-                <p>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yhteys - Tolviander</title>
+    <!-- Omat tyylit -->
+    <link rel="stylesheet" href="tyylit.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body class="body">
+    <div id="container" class="container my-4 text-center" style="color: whitesmoke;">
+        
+        <!-- Otsikko -->
+        <h1 id="etuosivunotsikko" class="etusivunotsikko mb-5">
+            <span class="otsikon_rajaviiva">TOLVIANDER</span>
+        </h1>
+
+        <!-- Esittelytekstit (rajoitettu leveys luettavuuden parantamiseksi tietokoneella) -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 col-lg-8">
+                <h2 class="h1 mb-4">ETSITKÖ JOTAKIN UNIIKKIA?</h2>
+                <p class="mb-4 fs-5">
                     Suunnittelemme ja valmistamme yksilöllisiä mittatilauskalusteita ja teoksia, jotka toimivat kotisi
                     tyylin ankkureina. Oli kyseessä sitten hienostunut Console -taso tai huoneen keskipisteeksi nouseva
                     ja näyttävä "The Statement Piece". Eksklusiiviseen palveluumme kuuluu aina henkilökohtainen
                     suunnittelu yhteistyössä kanssanne. Näin varmistamme, että lopputulos keskustelee tilasi kanssa
-                    saumattomasti ja vastaa täysin haaveitasi.<br>
-                    <br>
-                    ​Ota yhteyttä, niin aloitetaan yhteinen matka kohti juuri sinun kotiisi suunniteltua uniikkia
-                    katseenvangitsijaa.
-                    <br><br>
-                <h2>MITEN PROSESSI ETENEE?</h2>
-                <br>
-
-<p style="text-align: left; display:flex; flex-direction: column; align-items: center">
-<b>​Yhteydenotto:</b> 
-Kerro lyhyesti toiveistasi tai lähetä kuva tilasta, johon suunnittelet teosta.
-<br>
-​<b>Keskustelu:</b> Syvennymme yhdessä ideoihisi – tarvittaessa sovimme myös kotikäynnistä tilan aistimiseksi.
-<br>
-​<b>Suunnittelu ja toteutus:</b> 
-Teemme sinulle luonnoksen ja valmistamme teoksen verstaallamme Riihimäellä, käsityönä sinua varten.</p>
-            
-            <br>
-            <br>
-          
-
-            
+                    saumattomasti ja vastaa täysin haaveitasi.
                 </p>
+                <p class="fs-5">
+                    Ota yhteyttä, niin aloitetaan yhteinen matka kohti juuri sinun kotiisi suunniteltua uniikkia
+                    katseenvangitsijaa.
+                </p>
+            </div>
+        </div>
+
+        <!-- Prosessi-osio: Mobiilissa allekkain, tabletilla/tietokoneella 3 saraketta rinnakkain -->
+        <div class="my-5">
+            <h2 class="h3 mb-4">MITEN PROSESSI ETENEE?</h2>
             
-        
-            
-                  
-                    <br>
-                    <br>
-                    <b>OTA YHTEYTTÄ</b><br>
-                    <br>
-                    <!--
-                    <a href="mailto:petri.tolviander@gmail.com">petri.tolviander@gmail.com</a><br>-->
-                       <a href="sposti.html" target="_blank">
-                  <img src="kuvat/email.png" width="24" height="24"></a><br>
-                  <br>
-                    ​Puhelin: 044 9845152<br>
-                    <p>Facebook</p>
-                    <a href="https://www.facebook.com/profile.php?id=61585242051224" target="_blank">
-                  <img src="kuvat/facebook16px.png" width="24" height="24"></a><br>
-                    <p>​Instagram</p>
-                    <a href="https://www.instagram.com/tolviander_/" target="_blank">
-                    <img src="kuvat/instagram16px.png" width="24" height="24"></a>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-4">
+                    <div class="p-3 border border-secondary rounded h-100">
+                        <h3 class="h5 mb-2">1. Yhteydenotto</h3>
+                        <p class="mb-0">Kerro lyhyesti toiveistasi tai lähetä kuva tilasta.</p>
                     </div>
                 </div>
-            </center>
-    </body>
+                
+                <div class="col-12 col-md-4">
+                    <div class="p-3 border border-secondary rounded h-100">
+                        <h3 class="h5 mb-2">2. Keskustelu</h3>
+                        <p class="mb-0">Syvennymme yhdessä ideoihisi – tarvittaessa sovimme kotikäynnistä.</p>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-4">
+                    <div class="p-3 border border-secondary rounded h-100">
+                        <h3 class="h5 mb-2">3. Suunnittelu</h3>
+                        <p class="mb-0">Teemme luonnoksen ja valmistamme teoksen käsityönä.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5 border-secondary">
+
+        <!-- Yhteystiedot -->
+        <div class="my-4">
+            <h3 class="h4 mb-4">OTA YHTEYTTÄ</h3>
+
+            <div class="row g-3 justify-content-center align-items-center">
+                
+                <!-- Sähköposti -->
+                <div class="col-12 col-sm-auto mb-2">
+                    <a href="sposti.html" target="_blank" aria-label="Lähetä sähköpostia" class="text-decoration-none text-light d-inline-flex align-items-center gap-2">
+                        <img src="kuvat/email.png" alt="Sähköposti" width="24" height="24" class="img-fluid">
+                        <span>Sähköposti</span>
+                    </a>
+                </div>
+
+                <!-- Puhelin -->
+                <div class="col-12 col-sm-auto mb-2">
+                    <p class="mb-0">Puhelin: <a href="tel:0449845152" class="text-light text-decoration-none">044 9845152</a></p>
+                </div>
+
+                <!-- Facebook -->
+                <div class="col-12 col-sm-auto mb-2">
+                    <a href="https://www.facebook.com/profile.php?id=61585242051224" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-light d-inline-flex align-items-center gap-2">
+                        <img src="kuvat/facebook16px.png" alt="Facebook" width="24" height="24" class="img-fluid">
+                        <span>Facebook</span>
+                    </a>
+                </div>
+
+                <!-- Instagram -->
+                <div class="col-12 col-sm-auto mb-2">
+                    <a href="https://www.instagram.com/tolviander_/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-light d-inline-flex align-items-center gap-2">
+                        <img src="kuvat/instagram16px.png" alt="Instagram" width="24" height="24" class="img-fluid">
+                        <span>Instagram</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
 </html>
