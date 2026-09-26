@@ -99,6 +99,8 @@ main {
   }
 }*/
 
+
+
 .kuva_teksti {
   font-size: clamp(24px, 5vw, 50px);
   white-space: nowrap;
